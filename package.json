@@ -1,6 +1,6 @@
 {
   "name": "aws-bunyan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simplified Logging Solution For AWS & ElasticSearch",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

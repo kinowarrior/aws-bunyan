@@ -26,11 +26,11 @@ log.debug("Data", data);
 
 With typings support:
 
-![Log Usage With Typings](docs/log_usage1.gif)
+![Log Usage With Typings](https://raw.githubusercontent.com/kinowarrior/aws-bunyan/master/docs/log_usage1.gif)
 
 Since this is a lightweight wrapper around bunyan, you can fully leverage the bunyan CLI for nicely viewing those logs too.
 
-![bunyan CLI screenshot](docs/output_cli.gif)
+![bunyan CLI screenshot](https://raw.githubusercontent.com/kinowarrior/aws-bunyan/master/docs/output_cli.gif)
 
 
 #### Setting Context
@@ -54,7 +54,7 @@ log.debug("Data", data);
 
 And here's the output:
 
-![Log Usage With Context screenshot](docs/output_context.gif)
+![Log Usage With Context screenshot](https://raw.githubusercontent.com/kinowarrior/aws-bunyan/master/docs/output_context.gif)
 
 
 #### Serializer Support
@@ -86,7 +86,7 @@ log.info("Phone number, Question & Answer", {
 
 And here's the output:
 
-![Log Usage With Serializer screenshot](docs/output_serializer.gif)
+![Log Usage With Serializer screenshot](https://raw.githubusercontent.com/kinowarrior/aws-bunyan/master/docs/output_serializer.gif)
 
 
 #### Setting Log Level

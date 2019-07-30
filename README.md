@@ -107,7 +107,6 @@ import { ILogger, logFactory } from "aws-bunyan";
 const log: ILogger = logFactory.createLogger("MyLogger");
 
 const data = { compiler: "Webpack", language: "Typescript" };
-log.debug("Data", data);
 
 log.debug("Data", data);
 
@@ -122,6 +121,16 @@ log.warn("Database connection issue", data, warningError);
 const fatalError = new Error("Database is offline.");
 
 log.error("Fatal error, aborting.", data, fatalError);
+```
+
+#### Vanilla Javascript (node) Example Usage
+
+```js
+const logFactory = require("aws-bunyan").logFactory;
+const log = logFactory.createLogger("MyLogger");
+
+const data = { compiler: "Webpack", language: "Typescript" };
+log.debug("Data", data);
 ```
 
 #### Finally

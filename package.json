@@ -1,0 +1,31 @@
+{
+  "name": "aws-bunyan",
+  "version": "1.0.3",
+  "description": "Simplified Logging Solution For AWS & ElasticSearch",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinowarrior/aws-bunyan"
+  },
+  "keywords": [
+    "aws", "log", "logging", "log4j", "json", "bunyan"]
+  ],
+  "author": "arcseldon",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  }
+}

@@ -14,7 +14,12 @@
     "url": "https://github.com/kinowarrior/aws-bunyan"
   },
   "keywords": [
-    "aws", "log", "logging", "log4j", "json", "bunyan"]
+    "aws",
+    "log",
+    "logging",
+    "log4j",
+    "json",
+    "bunyan"
   ],
   "author": "arcseldon",
   "license": "MIT",

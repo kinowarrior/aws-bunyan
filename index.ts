@@ -8,10 +8,10 @@ export interface ILogContext {
 }
 
 export interface ILogger {
-  debug(msg: string, params: object): void;
-  info(msg: string, params: object): void;
-  warn(msg: string, params: object, error: object): void;
-  error(msg: string, params: object, error: object): void;
+  debug(msg: string, params?: object): void;
+  info(msg: string, params?: object): void;
+  warn(msg: string, params?: object, error?: object): void;
+  error(msg: string, params?: object, error?: object): void;
   setContext(key: string, value: any): void;
 }
 

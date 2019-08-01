@@ -56,6 +56,13 @@ And here's the output:
 
 ![Log Usage With Context screenshot](https://raw.githubusercontent.com/kinowarrior/aws-bunyan/master/docs/output_context.gif)
 
+#### AWS Contextual Information
+
+Note that this logger provides extra contextual information when used with AWS. Here is a sample output from Cloudwatch with aws region and function information automatically applied.
+
+
+![Log Usage With AWS Context screenshot]()
+
 
 #### Serializer Support
 
